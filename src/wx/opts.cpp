@@ -1,8 +1,8 @@
 #include "../common/ConfigManager.h"
-#include "wxvbam.h"
 #include <algorithm>
+#include <wx/checkbox.h>
 #include <wx/display.h>
-
+#include "wxvbam.h"
 /*
        disableSfx(F) -> cpuDisableSfx
        priority(2) -> threadPriority

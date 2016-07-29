@@ -1,3 +1,5 @@
+#include <stdint.h>
+
 #include "gbMemory.h"
 #include "../System.h"
 #include "../common/Port.h"

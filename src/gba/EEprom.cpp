@@ -1,8 +1,10 @@
+#include <zlib.h>
+#include <memory.h>
+#include <string.h>
+#include <stdint.h>
 #include "EEprom.h"
 #include "../Util.h"
 #include "GBA.h"
-#include <memory.h>
-#include <string.h>
 
 extern int cpuDmaCount;
 

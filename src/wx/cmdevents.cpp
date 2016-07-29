@@ -3,7 +3,6 @@
 #define __STDC_CONSTANT_MACROS // required for ffmpeg
 #endif
 
-#include "wxvbam.h"
 #include <algorithm>
 #include <wx/aboutdlg.h>
 #include <wx/ffile.h>
@@ -13,6 +12,8 @@
 #include <wx/sstream.h>
 #include <wx/url.h>
 #include <wx/wfstream.h>
+#include <wx/checkbox.h>
+#include "wxvbam.h"
 
 #ifndef NO_FFMPEG
 extern "C" {

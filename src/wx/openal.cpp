@@ -5,6 +5,7 @@
 
 // for gopts
 // also, wx-related
+#include <wx/checkbox.h>
 #include "wxvbam.h"
 
 // Interface

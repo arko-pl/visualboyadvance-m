@@ -2,11 +2,18 @@
 // these are all the viewer dialogs except for the ones with graphical areas
 // they can be instantiated multiple times
 
+#include <stdint.h>
+#include <wx/checkbox.h>
+#include <wx/dialog.h>
+#include <wx/ffile.h>
+#include <wx/scrolbar.h>
+#include <wx/stattext.h>
+#include <wx/textctrl.h>
+#include <wx/vlbox.h>
 #include "../gba/armdis.h"
 #include "viewsupt.h"
 #include "wxvbam.h"
-#include <wx/ffile.h>
-#include <wx/vlbox.h>
+
 
 // avoid exporting classes
 namespace Viewers {
@@ -250,10 +257,10 @@ public:
     }
     void UpdateDis()
     {
-        Z->SetValue(AF.B.B0 & Z_FLAG);
-        N->SetValue(AF.B.B0 & N_FLAG);
-        H->SetValue(AF.B.B0 & H_FLAG);
-        C->SetValue(AF.B.B0 & C_FLAG);
+        Z->SetValue(AF.B.B0 & Z_FLAGB);
+        N->SetValue(AF.B.B0 & N_FLAGB);
+        H->SetValue(AF.B.B0 & H_FLAGB);
+        C->SetValue(AF.B.B0 & C_FLAGB);
 #define grv16(n, val)                    \
     do {                                 \
         wxString s;                      \

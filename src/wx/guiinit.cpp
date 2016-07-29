@@ -5,12 +5,11 @@
 // other non-viewer dialogs are at least validated enough that they won't crash
 // viewer dialogs are not commonly used, so they are initialized on demand
 
-#include "wxvbam.h"
-
 #include <algorithm>
 #include <stdexcept>
 #include <typeinfo>
 
+#include <wx/checkbox.h>
 #include <wx/checkedlistctrl.h>
 #include <wx/clrpicker.h>
 #include <wx/dir.h>
@@ -21,6 +20,8 @@
 #include <wx/tokenzr.h>
 #include <wx/txtstrm.h>
 #include <wx/wfstream.h>
+
+#include "wxvbam.h"
 
 #include "../common/ConfigManager.h"
 #include "../gba/CheatSearch.h"

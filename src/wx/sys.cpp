@@ -1,12 +1,12 @@
 #include "../common/ConfigManager.h"
 #include "../common/SoundSDL.h"
-#include "wxvbam.h"
 #include <SDL.h>
 #include <wx/ffile.h>
 #include <wx/generic/prntdlgg.h>
+#include <wx/checkbox.h>
 #include <wx/print.h>
 #include <wx/printdlg.h>
-
+#include "wxvbam.h"
 // These should probably be in vbamcore
 int systemVerbose;
 int systemFrameSkip;

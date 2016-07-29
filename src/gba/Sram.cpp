@@ -1,3 +1,6 @@
+#include <stdint.h>
+#include <zlib.h>
+
 #include "Sram.h"
 #include "Flash.h"
 #include "GBA.h"

@@ -1,4 +1,6 @@
 #include <wx/dcbuffer.h>
+#include <wx/panel.h>
+#include <wx/checkbox.h>
 
 #include "../../version.h"
 #include "../common/ConfigManager.h"
@@ -7,9 +9,10 @@
 #include "../gba/RTC.h"
 #include "../gba/agbprint.h"
 #include "../sdl/text.h"
-#include "drawing.h"
+
 #include "filters.h"
 #include "wxvbam.h"
+#include "drawing.h"
 
 int emulating;
 

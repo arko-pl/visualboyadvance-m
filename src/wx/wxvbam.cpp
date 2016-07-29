@@ -4,7 +4,7 @@
 //   load xrc file (guiinit.cpp does most of instantiation)
 //   create & display main frame
 
-#include "wxvbam.h"
+#include <wx/checkbox.h>
 #include <wx/cmdline.h>
 #include <wx/file.h>
 #include <wx/filesys.h>
@@ -19,6 +19,8 @@
 #include <wx/url.h>
 #include <wx/wfstream.h>
 #include <wx/zipstrm.h>
+
+#include "wxvbam.h"
 
 // The built-in xrc file
 #include "builtin-xrc.h"

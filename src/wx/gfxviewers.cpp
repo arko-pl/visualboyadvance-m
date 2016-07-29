@@ -2,10 +2,16 @@
 // these are all the viewer dialogs with graphical panel areas
 // they can be instantiated multiple times
 
+#include <wx/colordlg.h>
+#include <wx/checkbox.h>
+#include <wx/dialog.h>
+#include <wx/ffile.h>
+#include <wx/panel.h>
+#include <wx/scrolbar.h>
+#include <wx/stattext.h>
+#include <wx/textctrl.h>
 #include "viewsupt.h"
 #include "wxvbam.h"
-#include <wx/colordlg.h>
-#include <wx/ffile.h>
 
 // FIXME: many of these read e.g. palette data directly without regard to
 // byte order.  Need to determine where things are stored in emulated machine

@@ -1,3 +1,12 @@
+#include <wx/checkbox.h>
+#include <wx/dialog.h>
+#include <wx/ffile.h>
+#include <wx/panel.h>
+#include <wx/scrolbar.h>
+#include <wx/stattext.h>
+#include <wx/textctrl.h>
+#include <wx/window.h>
+
 #include "viewsupt.h"
 #include "../common/ConfigManager.h"
 #include "wxvbam.h"

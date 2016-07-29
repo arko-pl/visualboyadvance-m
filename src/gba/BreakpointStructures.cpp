@@ -99,6 +99,7 @@ sw, sword, int32_t, int                 --> signed word
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 
 #include "BreakpointStructures.h"
 #include "remote.h"
